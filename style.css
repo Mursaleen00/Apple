@@ -3,7 +3,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 ul{
     justify-content: center;
     display: flex;
@@ -12,6 +11,7 @@ ul{
     margin-top: -8px;
     background-color: rgba(32, 32, 32, 0.349);
    padding: 12px;
+   
 }
 
 img{
@@ -21,7 +21,7 @@ img{
 }
 
 a{
-    color: rgb(133, 133, 133);
+    color: rgb(161, 161, 161);
     text-decoration: none;
     padding: 20px;
     /* font-size: small; */
@@ -31,48 +31,22 @@ a{
 }
 
 
-
-
-
 .laptop{
-    justify-content: center;
-    margin-left: 450px;
-    width: auto;
-    height: auto;
-}
-
-#h1{
-    text-align: center;
-}
-
-button{
-    background-color: black;
-    color: aliceblue;
-    border: 2px solid transparent;    
-    border-image: linear-gradient(45deg, orange, pink, blue) 1;
-    /* border-radius: 30%; */
-    /* border-image-slice: 1; */
-    padding: 0px 50px;
-}
-button:hover{
-    background-color: white;
-    color: black;
-    border: 2px solid white;    
-    padding: 0px 50px;
-}
-
-h1{
-    color: aliceblue;
+    width: 100%;
+    height: 100%;
     margin-top: 150px;
+}
+
+
+.pro{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    color: white;
+    /* border: 1px solid red; */
     font-size: 50px;
 }
-.a{
-    position: absolute;
-    top: 38%;
-    left: 42%;
-    /* border: 1px solid red; */
 
-}
 
 #h4{
     color: aliceblue;
@@ -82,8 +56,137 @@ h1{
 
 p{
     position: absolute;
-    top: 57%;
-    left: 39%;
+    top: 18%;
+    left: 34%;
     color: aliceblue;
     font-size: x-large;
 }
+
+#learn{
+    position: absolute;
+    color: #2997ff;
+    font-size: x-large;
+    top: 250px;
+    left: 600px;
+}
+#buy{
+    position: absolute;
+    color: #2997ff;
+    font-size: x-large;
+    top: 250px;
+    left: 800px;
+}
+
+
+hr{
+    height: 10px;
+    background-color: aliceblue;
+    width: 100%;
+    /* z-index: 1; */
+}
+
+
+
+
+#mac{
+    width: 100%;
+    height: 500px;
+}
+
+.mac{
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    color: white;
+    font-size: 50px;
+}
+
+#mac_p{
+    position: absolute;
+    top: 65%;
+    left: 34%;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+#learn_1{
+    position: absolute;
+    color: #2997ff;
+    font-size: x-large;
+    top: 70%;
+    left: 600px;
+}
+#buy_1{
+    position: absolute;
+    color: #2997ff;
+    font-size: x-large;
+    top: 70%;
+    left: 800px;
+}
+
+
+
+#speaker{
+    width: 100%;
+    height: 100%;
+}
+
+.speaker{
+    position: absolute;
+    top: 1130px;
+    left: 42%;
+    color: white;
+    font-size: 50px;
+}
+
+#speaker_p{
+    position: absolute;
+    top: 1200px;
+    left: 43.5%;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+#learn_2{
+    position: absolute;
+    color: #2997ff;
+    font-size: x-large;
+    top: 1250px;
+    left: 38%;
+}
+#buy_2{
+    position: absolute;
+    color: #2997ff;
+    font-size: x-large;
+    top: 1250px;
+    left: 50%;
+}
+
+
+
+
+/* #h1{
+    text-align: center;
+} */
+
+/* button{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid transparent;    
+    border-image: linear-gradient(45deg, orange, pink, blue) 1;
+    /* border-radius: 30%; */
+    /* border-image-slice: 1; 
+     padding: 0px 50px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;    
+    padding: 0px 50px;
+} */ 
+
+/* h1{
+    color: aliceblue;
+    margin-top: 150px;
+    font-size: 50px;
+} */
